@@ -52,7 +52,7 @@
     line-height: var(--line-height);
 }
 
-.text-preset-2-bold {
+.text-preset-2--bold {
     font-family: var(--font-family);
     font-weight: var(--font-bold);
     font-size: var(--font-size-sm);
