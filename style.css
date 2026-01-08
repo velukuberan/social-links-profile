@@ -128,7 +128,7 @@ main {
     cursor: pointer;
     gap: var(--spacing-100); 
     transition: background-color 0.3s ease,
-    color 0.3s ease;
+                color 0.3s ease;
 }
 
 .card__link:hover {
@@ -136,7 +136,11 @@ main {
     color: var(--grey-900);
 }
 
-@media screen and (min-width: 768px) {
+@media (prefers-reduced-motion: reduce) {
+  transition: none;
+}
+
+@media screen and (min-width: 48rem) {
     .card {
         max-width: 24rem;
     }
